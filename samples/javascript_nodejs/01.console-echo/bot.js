@@ -13,6 +13,7 @@ class EchoBot {
                 // Send a reply.
                 context.sendActivity('Bye!');
 
+                // @ts-ignore
                 process.exit();
             } else {
                 // Echo the message text back to the user.
