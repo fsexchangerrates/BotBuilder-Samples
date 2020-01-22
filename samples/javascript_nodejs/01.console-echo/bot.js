@@ -12,6 +12,7 @@ class EchoBot {
             if (context.activity.text.toLowerCase() === 'quit') {
                 // Send a reply.
                 context.sendActivity('Bye!');
+
                 process.exit();
             } else {
                 // Echo the message text back to the user.
@@ -21,4 +22,4 @@ class EchoBot {
     }
 }
 
-module.exports = { EchoBot };
+module.exports = { EchoBot }

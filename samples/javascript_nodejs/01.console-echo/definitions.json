@@ -1,0 +1,570 @@
+{
+	"knownSymbols": {
+		"LuisBot": [
+			{
+				"name": "LuisBot",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\experimental\\multilingual-luis\\javascript_typescript\\src\\bot.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ActivityTypes": [
+			{
+				"name": "ActivityTypes",
+				"module": "botbuilder",
+				"isDefault": false
+			},
+			{
+				"name": "ActivityTypes",
+				"module": "botbuilder-core",
+				"isDefault": false
+			}
+		],
+		"LuisRecognizer": [
+			{
+				"name": "LuisRecognizer",
+				"module": "botbuilder-ai",
+				"isDefault": false
+			}
+		],
+		"path": [
+			{
+				"name": "path",
+				"module": "path",
+				"isDefault": true,
+				"asDefinition": "* as path"
+			}
+		],
+		"restify": [
+			{
+				"name": "restify",
+				"module": "restify",
+				"isDefault": true,
+				"asDefinition": "* as restify"
+			}
+		],
+		"BotFrameworkAdapter": [
+			{
+				"name": "BotFrameworkAdapter",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"ConversationState": [
+			{
+				"name": "ConversationState",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"MemoryStorage": [
+			{
+				"name": "MemoryStorage",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"UserState": [
+			{
+				"name": "UserState",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"BotConfiguration": [
+			{
+				"name": "BotConfiguration",
+				"module": "botframework-config",
+				"isDefault": false
+			}
+		],
+		"TranslatorMiddleware": [
+			{
+				"name": "TranslatorMiddleware",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\experimental\\multilingual-luis\\javascript_typescript\\src\\translator-middleware.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Middleware": [
+			{
+				"name": "Middleware",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"TurnContext": [
+			{
+				"name": "TurnContext",
+				"module": "botbuilder",
+				"isDefault": false
+			},
+			{
+				"name": "TurnContext",
+				"module": "botbuilder-core",
+				"isDefault": false
+			}
+		],
+		"BotStatePropertyAccessor": [
+			{
+				"name": "BotStatePropertyAccessor",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"TranslateArrayOptions": [
+			{
+				"name": "TranslateArrayOptions",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\experimental\\multilingual-luis\\javascript_typescript\\src\\translator.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TranslationResult": [
+			{
+				"name": "TranslationResult",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\experimental\\multilingual-luis\\javascript_typescript\\src\\translator.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"TranslationRequest": [
+			{
+				"name": "TranslationRequest",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\experimental\\multilingual-luis\\javascript_typescript\\src\\translator.ts",
+				"type": "interface",
+				"isDefault": false
+			}
+		],
+		"MicrosoftTranslator": [
+			{
+				"name": "MicrosoftTranslator",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\experimental\\multilingual-luis\\javascript_typescript\\src\\translator.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"request": [
+			{
+				"name": "request",
+				"module": "request-promise-native",
+				"isDefault": true,
+				"asDefinition": "* as request"
+			}
+		],
+		"USER_PROFILE": [
+			{
+				"name": "USER_PROFILE",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\samples\\javascript_es6\\01.browser-echo\\src\\app.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"BOT_PROFILE": [
+			{
+				"name": "BOT_PROFILE",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\samples\\javascript_es6\\01.browser-echo\\src\\app.ts",
+				"type": "const",
+				"isDefault": false
+			}
+		],
+		"renderWebChat": [
+			{
+				"name": "renderWebChat",
+				"module": "botframework-webchat",
+				"isDefault": false
+			}
+		],
+		"WebChatAdapter": [
+			{
+				"name": "WebChatAdapter",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\samples\\javascript_es6\\01.browser-echo\\src\\webChatAdapter.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ConnectionStatus": [
+			{
+				"name": "ConnectionStatus",
+				"module": "botframework-directlinejs",
+				"isDefault": false
+			}
+		],
+		"BotAdapter": [
+			{
+				"name": "BotAdapter",
+				"module": "botbuilder-core",
+				"isDefault": false
+			}
+		],
+		"Observable": [
+			{
+				"name": "Observable",
+				"module": "core-js/features/observable",
+				"isDefault": true
+			}
+		],
+		"ConsoleEchoBot": [
+			{
+				"name": "ConsoleEchoBot",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\samples\\typescript_nodejs\\01.console-echo\\src\\bot.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ConsoleAdapter": [
+			{
+				"name": "ConsoleAdapter",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\samples\\typescript_nodejs\\01.console-echo\\src\\consoleAdapter.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Activity": [
+			{
+				"name": "Activity",
+				"module": "botbuilder-core",
+				"isDefault": false
+			}
+		],
+		"ConversationReference": [
+			{
+				"name": "ConversationReference",
+				"module": "botbuilder-core",
+				"isDefault": false
+			}
+		],
+		"ResourceResponse": [
+			{
+				"name": "ResourceResponse",
+				"module": "botbuilder-core",
+				"isDefault": false
+			}
+		],
+		"readline": [
+			{
+				"name": "readline",
+				"module": "readline",
+				"isDefault": true,
+				"asDefinition": "* as readline"
+			}
+		],
+		"config": [
+			{
+				"name": "config",
+				"module": "dotenv",
+				"isDefault": false
+			}
+		],
+		"EchoBot": [
+			{
+				"name": "EchoBot",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\echo\\bot.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ActivityHandler": [
+			{
+				"name": "ActivityHandler",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"MessageFactory": [
+			{
+				"name": "MessageFactory",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"EmptyBot": [
+			{
+				"name": "EmptyBot",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\empty\\bot.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"LuisApplication": [
+			{
+				"name": "LuisApplication",
+				"module": "botbuilder-ai",
+				"isDefault": false
+			}
+		],
+		"StorageMapper": [
+			{
+				"name": "StorageMapper",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\MigrationV3V4\\Node\\V4V3-user-state-adapter-sample-bot\\V4V3StorageMapper\\src\\index.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"Storage": [
+			{
+				"name": "Storage",
+				"module": "botbuilder-core",
+				"isDefault": false
+			},
+			{
+				"name": "Storage",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"StoreItems": [
+			{
+				"name": "StoreItems",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"validate": [
+			{
+				"name": "validate",
+				"module": "uuid-validate",
+				"isDefault": true,
+				"asDefinition": "* as validate"
+			}
+		],
+		"V3UserState": [
+			{
+				"name": "V3UserState",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\MigrationV3V4\\Node\\V4V3-user-state-adapter-sample-bot\\V4V3UserState\\src\\V3UserState.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"BotState": [
+			{
+				"name": "BotState",
+				"module": "botbuilder",
+				"isDefault": false
+			},
+			{
+				"name": "BotState",
+				"module": "botbuilder-core",
+				"isDefault": false
+			}
+		],
+		"BookingDetails": [
+			{
+				"name": "BookingDetails",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\dialogs\\bookingDetails.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DialogAndWelcomeBot": [
+			{
+				"name": "DialogAndWelcomeBot",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\bots\\dialogAndWelcomeBot.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"CardFactory": [
+			{
+				"name": "CardFactory",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"Dialog": [
+			{
+				"name": "Dialog",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"DialogState": [
+			{
+				"name": "DialogState",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"BookingDialog": [
+			{
+				"name": "BookingDialog",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\dialogs\\bookingDialog.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TimexProperty": [
+			{
+				"name": "TimexProperty",
+				"module": "@microsoft/recognizers-text-data-types-timex-expression",
+				"isDefault": false
+			}
+		],
+		"InputHints": [
+			{
+				"name": "InputHints",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"DialogBot": [
+			{
+				"name": "DialogBot",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\bots\\dialogBot.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"StatePropertyAccessor": [
+			{
+				"name": "StatePropertyAccessor",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"CancelAndHelpDialog": [
+			{
+				"name": "CancelAndHelpDialog",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\dialogs\\cancelAndHelpDialog.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"ComponentDialog": [
+			{
+				"name": "ComponentDialog",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"DialogContext": [
+			{
+				"name": "DialogContext",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"DialogTurnResult": [
+			{
+				"name": "DialogTurnResult",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"DialogTurnStatus": [
+			{
+				"name": "DialogTurnStatus",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"DateResolverDialog": [
+			{
+				"name": "DateResolverDialog",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\dialogs\\dateResolverDialog.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"DateTimePrompt": [
+			{
+				"name": "DateTimePrompt",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"DateTimeResolution": [
+			{
+				"name": "DateTimeResolution",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"PromptValidatorContext": [
+			{
+				"name": "PromptValidatorContext",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"WaterfallDialog": [
+			{
+				"name": "WaterfallDialog",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"WaterfallStepContext": [
+			{
+				"name": "WaterfallStepContext",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"FlightBookingRecognizer": [
+			{
+				"name": "FlightBookingRecognizer",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\dialogs\\flightBookingRecognizer.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"RecognizerResult": [
+			{
+				"name": "RecognizerResult",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"LuisRecognizerOptionsV3": [
+			{
+				"name": "LuisRecognizerOptionsV3",
+				"module": "botbuilder-ai",
+				"isDefault": false
+			}
+		],
+		"MainDialog": [
+			{
+				"name": "MainDialog",
+				"path": "c:\\Users\\Public\\Documents\\BotBuilder-Samples\\generators\\generator-botbuilder\\generators\\app\\templates\\core\\dialogs\\mainDialog.ts",
+				"type": "class",
+				"isDefault": false
+			}
+		],
+		"TestAdapter": [
+			{
+				"name": "TestAdapter",
+				"module": "botbuilder",
+				"isDefault": false
+			}
+		],
+		"DialogSet": [
+			{
+				"name": "DialogSet",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		],
+		"DialogTestClient": [
+			{
+				"name": "DialogTestClient",
+				"module": "botbuilder-testing",
+				"isDefault": false
+			}
+		],
+		"DialogTestLogger": [
+			{
+				"name": "DialogTestLogger",
+				"module": "botbuilder-testing",
+				"isDefault": false
+			}
+		],
+		"TextPrompt": [
+			{
+				"name": "TextPrompt",
+				"module": "botbuilder-dialogs",
+				"isDefault": false
+			}
+		]
+	}
+}
