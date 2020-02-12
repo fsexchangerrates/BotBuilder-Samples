@@ -5,6 +5,8 @@ const { ActivityHandler, ActionTypes, ActivityTypes, CardFactory } = require('bo
 const path = require('path');
 const axios = require('axios');
 const fs = require('fs');
+const channels = require('channel-line-connector');
+const ChannelData-1 = require('./channelDatas/channelData-1.json');
 
 class AttachmentsBot extends ActivityHandler {
     constructor() {
@@ -151,9 +153,9 @@ class AttachmentsBot extends ActivityHandler {
         // In this code the emulator is accounted for with the 'title' parameter, but in other channels you may
         // need to provide a value for other parameters like 'text' or 'displayText'.
         const buttons = [
-            { type: ActionTypes.ImBack, title: '1. Inline Attachment', value: '1' },
-            { type: ActionTypes.ImBack, title: '2. Internet Attachment', value: '2' },
-            { type: ActionTypes.ImBack, title: '3. Uploaded Attachment', value: '3' }
+            { type: ActionTypes.Postback, title: '1. Inline Attachment', value: '1' },
+            { type: ActionTypes.Postback, title: '2. Internet Attachment', value: '2' },
+            { type: ActionTypes.Postback, title: '3. Uploaded Attachment', value: '3' }
         ];
 
         const card = CardFactory.heroCard('', undefined,

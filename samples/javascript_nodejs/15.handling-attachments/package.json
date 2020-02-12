@@ -5,6 +5,9 @@
     "author": "Microsoft",
     "license": "MIT",
     "main": "index.js",
+    "include": [
+        reso
+    ],
     "scripts": {
         "start": "node ./index.js",
         "watch": "nodemon ./index.js",
