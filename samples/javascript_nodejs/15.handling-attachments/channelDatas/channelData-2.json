@@ -1,8 +1,5 @@
 {
-    "channelData-1": {
-        "type": "flex",
-        "altText": "flex message 2",
-        "contents": {
+    "channelData-2": {
             "type": "carousel",
             "contents": [{
                     "type": "bubble",
@@ -480,5 +477,4 @@
                 }
             ]
         }
-    }
 }

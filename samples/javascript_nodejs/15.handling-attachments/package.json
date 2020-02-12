@@ -6,7 +6,8 @@
     "license": "MIT",
     "main": "index.js",
     "include": [
-        reso
+        "channelDatas",
+        "resources"
     ],
     "scripts": {
         "start": "node ./index.js",
@@ -32,5 +33,11 @@
         "eslint-plugin-promise": "^4.2.1",
         "eslint-plugin-standard": "^4.0.1",
         "nodemon": "~1.19.4"
-    }
+    },
+    "channelDatas": [
+        "channelData-1",
+        "channelData-2",
+        "channelData-3",
+        "channelData-4"
+    ]
 }

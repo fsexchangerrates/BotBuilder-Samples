@@ -5,10 +5,16 @@ const { ActivityHandler, ActionTypes, ActivityTypes, CardFactory } = require('bo
 const path = require('path');
 const axios = require('axios');
 const fs = require('fs');
-const channels = require('channel-line-connector');
-const ChannelData-1 = require('./channelDatas/channelData-1.json');
+const 
+const channels = "line";
+const channelDatas;
+const ChannelData1 = require('./channelDatas/channelData-1.json');
+const ChannelData2 = require('./channelDatas/channelData-2.json');
 
 class AttachmentsBot extends ActivityHandler {
+    /**
+     * @param {*} turncontext
+     */
     constructor() {
         super();
 
@@ -127,7 +133,7 @@ class AttachmentsBot extends ActivityHandler {
         // possible options.
         const firstChar = turnContext.activity.text[0];
         if (firstChar === '1') {
-            reply.text = 'This is an inline attachment.';
+            reply.Message = this.sendActivity(ChannelData1);
             reply.attachments = [this.getInlineAttachment()];
         } else if (firstChar === '2') {
             reply.attachments = [this.getInternetAttachment()];
