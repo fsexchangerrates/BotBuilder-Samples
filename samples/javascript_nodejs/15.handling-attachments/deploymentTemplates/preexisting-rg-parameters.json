@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "appId": {
-            "value": ""
+            "value": "82133e57-64d1-42d8-a51e-a464f3815500"
         },
         "appSecret": {
             "value": ""
