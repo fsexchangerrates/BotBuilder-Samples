@@ -17,7 +17,6 @@ class HandleMessage {
         super('handleMessage');
         channelDatas = [{ channelData1 }, { channelData2 }];
 
-        this.addAttachments();
     }
 
 }
