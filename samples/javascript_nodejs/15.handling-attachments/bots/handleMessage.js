@@ -11,10 +11,15 @@ class HandleMessage {
 
     constructor(channelDatas) {
         this.channelDatas = channelDatas;
+        channelData1 = JSON.pare(ChannelData1, 'channelData1');
+        channelData2 = JSON.pare(ChannelData2, 'channelData2');
 
         super('handleMessage');
-        channelDatas = JSON.pare()
+        channelDatas = [{ channelData1 }, { channelData2 }];
 
         this.addAttachments();
     }
+
 }
+
+module.exports.HandleMessage = HandleMessage;

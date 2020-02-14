@@ -10,20 +10,9 @@ const ChannelData1 = require('./channelDatas/channelData-1.json');
 const ChannelData2 = require('./channelDatas/channelData-2.json');
 
 class AttachmentsBot extends ActivityHandler {
-    /**
-     * @param {*} turnContext
-     * @param {Object} channelData1
-     * @param {Object} channelData2
-     * 
-     */
-    
 
-    constructor(conversationUpdate)
-        this.conversationUpdate(turnContext) => {
-
-        }
-
-        super();
+    constructor()
+        super()
 
         this.onMembersAdded(async (context, next) => {
 
@@ -41,7 +30,7 @@ class AttachmentsBot extends ActivityHandler {
                     await next();
                 }
             }
-        });
+        })
 
         this.onMessage(async (context, next) => {
             // Determine how the bot should process the message by checking for attachments.
@@ -70,7 +59,7 @@ class AttachmentsBot extends ActivityHandler {
                     break;
             }
         });
-    }
+    };
 
     /**
      * Saves incoming attachments to disk by calling `this.downloadAttachmentAndWrite()` and
