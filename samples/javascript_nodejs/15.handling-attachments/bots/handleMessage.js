@@ -9,9 +9,12 @@ class HandleMessage {
      * @param {Object} channelData2
      */
 
-     constructor(channelDatas) {
+    constructor(channelDatas) {
         this.channelDatas = channelDatas;
 
-         super();
-     }
+        super('handleMessage');
+        channelDatas = JSON.pare()
+
+        this.addAttachments();
+    }
 }
