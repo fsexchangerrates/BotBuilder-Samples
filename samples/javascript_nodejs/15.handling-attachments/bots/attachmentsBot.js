@@ -1,23 +1,32 @@
 // Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT License.
 
-const { ActivityHandler, ActionTypes, ActivityTypes, CardFactory } = require('botbuilder');
+const { AdaptiveCard, ActivityHandler, ActionTypes, ActivityTypes, CardFactory, MessageFactory, CardAction, Connector } = require('botbuilder');
 const path = require('path');
 const axios = require('axios');
 const fs = require('fs');
-const channels = "line";
+const channelId = 'Line';
 const ChannelData1 = require('./channelDatas/channelData-1.json');
 const ChannelData2 = require('./channelDatas/channelData-2.json');
-const client = createConnectorClient.ConnectorClient(channels);
 
 class AttachmentsBot extends ActivityHandler {
     /**
-     * @param {*} client
+     * @param {*} turnContext
+     * @param {Object} channelData1
+     * @param {Object} channelData2
+     * 
      */
-    constructor() {
+    
+
+    constructor(conversationUpdate)
+        this.conversationUpdate(turnContext) => {
+
+        }
+
         super();
 
         this.onMembersAdded(async (context, next) => {
+
             const membersAdded = context.activity.membersAdded;
             for (let cnt = 0; cnt < membersAdded.length; cnt++) {
                 if (membersAdded[cnt].id !== context.activity.recipient.id) {
@@ -48,6 +57,18 @@ class AttachmentsBot extends ActivityHandler {
 
             // By calling next() you ensure that the next BotHandler is run.
             await next();
+        });
+
+        this.on('conversationUpdate', (message) => {
+            console.console.log("conversationUpdate", message);
+            switch (message.text) {
+                case 'follow':
+                    
+                    break;
+            
+                default:
+                    break;
+            }
         });
     }
 
@@ -132,7 +153,10 @@ class AttachmentsBot extends ActivityHandler {
         // possible options.
         const firstChar = turnContext.activity.text[0];
         if (firstChar === '1') {
-            reply.Message = this.sendActivity(ChannelData1);
+            // create handler for flex message layout 
+            reply.displayText = this.sendActivity(message);
+            reply.attachments = [this.attachmentLayout()];
+            // original layout
             reply.attachments = [this.getInlineAttachment()];
         } else if (firstChar === '2') {
             reply.attachments = [this.getInternetAttachment()];
@@ -145,6 +169,20 @@ class AttachmentsBot extends ActivityHandler {
             reply.text = 'Your input was not recognized, please try again.';
         }
         await turnContext.sendActivity(reply);
+    }
+
+    /**
+     * Sends a Flex Message such as carousel
+     * @param {object} turnContext
+     */
+    async attachmentLayout(turnContext) {
+        const reply = { type: ActivityTypes.Message };
+        const flex1 = new botbuilder.AdaptiveCard()
+        turnContext.AttachmentLayout(botbuilder.AttachmentLayout.carousel);
+        turnContext.attachments([
+            new botbuilder.AdaptiveCard(s)
+                .bo
+        ])
     }
 
     /**
